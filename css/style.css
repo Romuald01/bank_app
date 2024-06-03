@@ -36,10 +36,100 @@ body{
     margin-top: 30px;
 }
 .first{
-    width: 55%;
+    width: 54%;
+    height: 100px;
     background-color: white;
+    border-top-left-radius: 10px;
 }
 .deposit{
     display: flex;
-    justify-content: space-between;
+    margin-left: 10px;
+    padding-top: 30px;
 }
+#h3_deposit{
+    margin-left: 60%;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.button_unique{
+    background-color: rgb(79, 189, 125);
+    color: white;
+}
+.select{
+    width: 530px;
+    height: 500px;
+    margin-left: 55%;
+    margin-top: -100px;
+}
+.transfer{
+  width: 520px;
+  height: 180px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(236, 186, 19);
+}
+.h2_transfer{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.input_name{
+    margin-left: 40px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color:  rgb(225, 218, 104);
+}
+.input_amount{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color:  rgb(225, 218, 104);
+}
+.edited_icon{
+   width: 20px;
+   margin-left: -8px;
+}
+.icon_container{
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.inputs{
+  display: flex;
+}
+.texts_input{
+    display: flex;
+    margin-left: 42px;
+    margin-top: 10px;
+}
+.h4_1{
+    font-weight: 100;
+    margin-left: 50px;
+}
+.h4_2{
+    font-weight: 100;
+    margin-left: 120px;
+}
+.request{
+    width: 520px;
+    height: 180px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: green;
+    margin-top: 10px;
+  }
+  .close{
+    width: 520px;
+    height: 180px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: red;
+    margin-top: 10px;
+  }
+
